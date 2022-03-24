@@ -1,4 +1,8 @@
 ## AirFlow3000
+
+Students and teachers spend about 30-35% of the day at school. Therefore, it is particularly important to ensure good air quality in the classroom and to ventilate more often. The concentration of the students suffers from the bad indoor air and they tire more quickly.
+Our project is a mock-up model of a room composed of a wooden panel and four plexiglass walls with a window that opens and closes automatically. We use a ESP32 Arduino microcontroller to control the servo motor that opens the window when the gas senor measures the CO2 level that surpasses the limit of 1000 PPM (parts per million). Studies show that the ideal indoor climate should be between 500 – 1000 PPM. As the CO2 level rises, so do other pollutants (bacteria, virus). The LCD display shows the CO2 level in real time.
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/MrRobot4444/MrRobot4444.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
