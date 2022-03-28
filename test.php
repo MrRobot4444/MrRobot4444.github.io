@@ -16,7 +16,7 @@
 
 	$content = "some text here";
 	$this_directory = dirname(__FILE__);
-	$fp = fopen($this_directory . "/newfile.txt", "w");
+	$fp = fopen($this_directory . "/current.txt", "w");
 	fwrite($fp, $content); 
 	fclose($fp);
    ?>
