@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snowflake Animation</title>
+    <style>
+      /* Define the container for the snowflakes */
+      .snow-container {
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+      }
+      
+      /* Define the snowflake element */
+      .snowflake {
+        position: absolute;
+        top: -10px;
+        width: 20px;
+        height: 20px;
+        background: white;
+        border-radius: 50%;
+        animation: snow-fall linear infinite;
+        transform-origin: center center;
+      }
+      
+      /* Define the snow-fall animation */
+      @keyframes snow-fall {
+        0% {
+          transform: translateY(-100%) rotate(0deg);
+        }
+        100% {
+          transform: translateY(100vh) rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="snow-container">
+      <!-- Add snowflake elements to the container -->
+      <div class="snowflake"></div>
+      <div class="snowflake"></div>
+      <div class="snowflake"></div>
+      <div class="snowflake"></div>
+      <div class="snowflake"></div>
+    </div>
+  </body>
+</html>
